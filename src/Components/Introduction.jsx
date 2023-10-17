@@ -16,8 +16,6 @@ function Introduction() {
         A <strong>UI/UX developer </strong> and <strong>programmer </strong><br />
         With <strong>passionate connection building</strong>
       </p>
-
-      <hr />
     </div>
   );
 }
