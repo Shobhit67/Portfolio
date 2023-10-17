@@ -12,7 +12,7 @@ body {
 /* Making Responsive */
 @media (max-width: 1195px) {
   html {
-    font-size: 125%;
+    font-size: 130%;
   }
 }
 
@@ -24,9 +24,9 @@ body {
 
 /* Introduction Sections */
 .intro {
-  margin: 5rem;
+  margin-top: 5rem;
+  padding: 5rem;
   text-align: center;
-  padding: 1rem;
 }
 
 .intro > img {
