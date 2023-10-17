@@ -37,7 +37,7 @@ body {
 
 .intro > .hi {
   padding-top: 1.0rem;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin: .7rem 0;
   line-height: 1;
   font-weight: 500;
@@ -64,7 +64,7 @@ body {
   text-align: center;
   margin-top: 1.0rem;
   margin-bottom: 6.4rem;
-  font-size: 7.6rem;
+  font-size: 7.8rem;
   line-height: 1.1;
 }
 
@@ -73,7 +73,7 @@ h1 > span {
 }
 
 .sub-intro {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   line-height: 1.4;
 }
 
