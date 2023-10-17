@@ -3,7 +3,7 @@ import profilePic from "../imagex/profile-pic.jpeg";
 function Introduction() {
   return (
     <div className="intro">
-      <img src={profilePic} alt="img" srcset="" />
+      <img src={profilePic} alt="img"/>
       <h3 className="hi"><span className="HandWave">👋</span>Hey, I'm Shobhit Goyal</h3>
       <h1 className="intro-main-h1">
         I develop
