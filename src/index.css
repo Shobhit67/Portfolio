@@ -14,6 +14,9 @@ body {
   html {
     font-size: 130%;
   }
+  /* .meet {
+    width: 10rem;
+  } */
 }
 
 @media (max-width: 768px) {
@@ -63,7 +66,6 @@ body {
 
 .intro-main-h1 {
   text-align: center;
-  margin: 20px 0;
   font-size: 7.6rem;
   margin-top: 2rem;
   margin-bottom: 5rem;
@@ -92,14 +94,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  width: 6.4rem;
+  height: 6.4rem;
   background: rgb(255, 221, 0);
   color: white;
-  border-radius: 32px;
+  border-radius: 3.2rem;
   position: fixed;
-  right: 50px;
-  bottom: 50px;
+  right: 2.0rem;
+  bottom: 2.0rem;
   /* box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px; */
   /* z-index: 9999; */
   cursor: pointer;
@@ -108,7 +110,11 @@ p {
   /* transform: scale(1); */
 }
 
-.meet:hover {
-  width: 70px;
-  height: 70px;
+.Projects-heading{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  /* border-bottom: 2px solid; */
 }
