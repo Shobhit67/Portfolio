@@ -44,8 +44,6 @@ body {
   }
 }
 
-
-
 .intro-main-h1 {
   text-align: center;
   margin-top: 10px;
@@ -67,9 +65,11 @@ p > strong {
   color: #2b7bbc;
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
   margin: 0;
+}
+
+hr {
+  background-color: white;
+  height: 2px;
 }
