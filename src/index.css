@@ -1,13 +1,75 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body {
+  color: white;
+  font-family: "Wotfard", sans-serif;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.intro {
+  padding: 50px;
+  text-align: center !important;
+}
+
+.intro > img {
+  border-radius: 50%;
+  width: 180px;
+  aspect-ratio: auto 180 / 180;
+  height: 180px;
+}
+
+.intro > .hi {
+  padding-top: 10px;
+  font-size: 25px;
+  margin: 7px 0;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.HandWave {
+  display: inline-block;
+  animation: wave-animation 1s infinite;
+  transform-origin: 70% 70%;
+  font-size: 30px;
+}
+
+@keyframes wave-animation {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+}
+
+
+
+.intro-main-h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 64px;
+  font-size: 76px;
+  line-height: 1.1;
+}
+
+h1 > span {
+  color: #2b7bbc;
+}
+
+.sub-intro {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+p > strong {
+  color: #2b7bbc;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
