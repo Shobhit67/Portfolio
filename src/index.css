@@ -112,6 +112,7 @@ p {
   width: 6.4rem;
   height: 6.4rem;
   background: rgb(255, 221, 0);
+  /* background: #2b7bbc; */
   color: white;
   border-radius: 3.2rem;
   position: fixed;
@@ -231,5 +232,8 @@ p {
   }
   .timeline-date {
     left: 0;
+  }
+  .sub-intro {
+    margin: 0 5rem;
   }
 }
