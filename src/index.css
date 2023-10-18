@@ -25,7 +25,9 @@ body {
 /* Introduction Sections */
 .intro {
   margin-top: 4rem;
-  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 6.5rem;
+  border: 2px solid;
   text-align: center;
 }
 
@@ -64,8 +66,8 @@ body {
 .intro-main-h1 {
   text-align: center;
   font-size: 7.6rem;
-  margin-top: 2rem;
-  margin-bottom: 10rem;
+  margin-top: 3.5rem;
+  margin-bottom: 8rem;
   line-height: 1.1;
 }
 
@@ -108,9 +110,9 @@ p {
 }
 
 .Projects-heading{
+  margin-top: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 6.5rem;
+  border: 2px solid;
   text-align: center;
-  font-size: 5rem;
-  font-weight: 500;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
 }
