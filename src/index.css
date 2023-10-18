@@ -200,8 +200,8 @@ hr {
 
 .timeline-btn{
   margin-top: 1rem;
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 1.2rem 1.5rem;
+  font-size: 1.6rem;
   background-color: #2b7bbc;
   border: none;
   border-radius: 1rem;
@@ -209,5 +209,4 @@ hr {
 .timeline-btn a{
   text-decoration: none;
   color: white;
-
 }

@@ -19,7 +19,7 @@ function Projects() {
                 <p className="description">
                 {elements.description}
                 </p>
-                <button className="timeline-btn" typeof="submit"><a href={elements.hrefLink}>{elements.btnTxt}</a></button>
+                <button className="timeline-btn" typeof="submit"><a href={elements.hrefLink}>View live</a></button>
               </div>
             </div>
           ))}
@@ -30,3 +30,4 @@ function Projects() {
 }
 
 export default Projects;
+  // "homepage": "https://myusername.github.io/my-app",
