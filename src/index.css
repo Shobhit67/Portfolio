@@ -78,6 +78,8 @@ p > strong {
 .sub-intro {
   font-size: 2rem;
   line-height: 1;
+  margin:0  1.5rem;
+  border: 2px solid;
 }
 
 h1,
