@@ -4,9 +4,9 @@ html {
 }
 
 body {
-  color: white;
+  /* color: white; */
   font-family: "Wotfard", sans-serif;
-  background-color: black;
+  /* background-color: black; */
 }
 
 /* Making Responsive */
@@ -24,8 +24,8 @@ body {
 
 /* **************************************** COMMON ***************************** */
 .common-section {
-  margin-top: 4rem;
-  padding-top: 5rem;
+  margin-top: 3rem;
+  /* padding-top: 5rem; */
   padding-bottom: 6.5rem;
 }
 
@@ -36,28 +36,27 @@ body {
 
 hr {
   width: 35rem;
+  border: 1px solid;
 }
 
 /* ********************************* Introduction Sections ********************8 */
 .intro {
-  margin-top: 2rem;
-  padding-top: 5rem;
-  padding-bottom: 6.5rem;
   text-align: center;
+  padding: 5rem 0 6.5rem;
 }
 
 .intro > img {
   border-radius: 50%;
-  width: 20rem;
-  height: 20rem;
-  aspect-ratio: auto 200 / 200;
+  width: 18rem;
+  height: 18rem;
+  aspect-ratio: 1 / 1;
 }
 
 .intro > .hi {
-  font-size: 2rem;
-  margin-top: 1.5rem;
-  line-height: 1;
+  font-size: 2.8rem;
+  margin-top: 1.6rem;
   font-weight: 500;
+  line-height: 1;
 }
 
 .HandWave {
@@ -65,8 +64,10 @@ hr {
   animation: wave-animation 1s infinite;
   transform-origin: 70% 70%;
   font-size: 3rem;
+  color: #2b7bbc;
 }
 
+/* HAND ANIMATION */
 @keyframes wave-animation {
   0%,
   100% {
@@ -77,24 +78,22 @@ hr {
     transform: rotate(30deg);
   }
 }
-
 .intro-main-h1 {
   text-align: center;
   font-size: 7.6rem;
-  margin-top: 3.5rem;
-  margin-bottom: 6rem;
-  line-height: 1.1;
+  margin-top: 4rem;
+  margin-bottom: 6.4rem;
+  line-height: 1.05;
 }
 
-h1 > span,
-p > strong {
+h1 > span {
   color: #2b7bbc;
 }
 
 .sub-intro {
-  font-size: 2rem;
-  line-height: 1;
-  margin:0  1.7rem;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  margin: 0 0 4.8rem;
 }
 
 h1,
@@ -144,12 +143,12 @@ p {
 }
 
 /* for vertical line */
-.timeline-items::before{
-  content: '';
+.timeline-items::before {
+  content: "";
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: white;
+  background-color: #2b7bbc;
   left: calc(50% - 1px);
 }
 
@@ -158,7 +157,7 @@ p {
   width: 100%;
   position: relative;
 }
-.timeline-item:last-child{
+.timeline-item:last-child {
   margin-bottom: 0;
 }
 
@@ -179,59 +178,58 @@ p {
   top: 10px;
 }
 
-.timeline-date{
+.timeline-date {
   font-size: 1.8rem;
   color: #2b7bbc;
   margin: 6px 0 15px;
 }
 .timeline-content {
-  padding: 3rem;
-  border-radius: 8px;
-  background-color: white;
-  color: black;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .timeline-content h3 {
   font-size: 2rem;
   margin: 0 0 1rem;
+  padding: 1rem 2rem;
   text-transform: capitalize;
-  border-bottom: 1px dotted;
+  border-bottom: 1px solid #2b7bbc;
 }
 .timeline-content p {
   font-size: 1.6rem;
+  padding: 1rem 2rem;
   line-height: 2.2rem;
 }
 
-.timeline-btn{
-  margin-top: 1rem;
+.timeline-btn {
+  margin: 1rem 2rem;
   padding: 1.2rem 1.5rem;
   font-size: 1.6rem;
   background-color: #2b7bbc;
   border: none;
   border-radius: 1rem;
 }
-.timeline-btn a{
+.timeline-btn a {
   text-decoration: none;
   color: white;
 }
 
 /* RESPONSIVE PROJECTS */
 @media (max-width: 1195px) {
-  .timeline-items::before{
-    left: .7rem;
+  .timeline-items::before {
+    left: 0.7rem;
   }
-  .timeline-item:nth-child(odd){
+  .timeline-item:nth-child(odd) {
     padding-right: 0;
     text-align: left;
   }
   .timeline-item:nth-child(odd),
-  .timeline-item:nth-child(even){
+  .timeline-item:nth-child(even) {
     padding-left: 3.7rem;
   }
-  .timeline-dot{
+  .timeline-dot {
     left: 0;
   }
-  .timeline-date{
+  .timeline-date {
     left: 0;
   }
 }

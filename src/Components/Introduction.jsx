@@ -1,4 +1,4 @@
-import profilePic from "../imagex/profile-pic.jpeg";
+import profilePic from "../imagex/Me2.jpg";
 
 function Introduction() {
   return (
@@ -16,6 +16,7 @@ function Introduction() {
         A <strong>UI/UX developer </strong> and <strong>programmer </strong><br />
         With <strong>passionate connection building</strong>
       </p>
+
     </div>
   );
 }
