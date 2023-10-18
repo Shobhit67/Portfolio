@@ -24,10 +24,9 @@ body {
 
 /* Introduction Sections */
 .intro {
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding-top: 5rem;
   padding-bottom: 6.5rem;
-  /* border: 2px solid; */
   text-align: center;
 }
 
@@ -67,11 +66,12 @@ body {
   text-align: center;
   font-size: 7.6rem;
   margin-top: 3.5rem;
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
   line-height: 1.1;
 }
 
-h1 > span, p > strong {
+h1 > span,
+p > strong {
   color: #2b7bbc;
 }
 
@@ -87,7 +87,7 @@ p {
   margin: 0;
 }
 
-/* Project Section */
+/* ***********************************Coffee Section*******************************8 */
 
 .meet {
   display: flex;
@@ -99,8 +99,8 @@ p {
   color: white;
   border-radius: 3.2rem;
   position: fixed;
-  right: 2.0rem;
-  bottom: 2.0rem;
+  right: 2rem;
+  bottom: 2rem;
   /* box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px; */
   /* z-index: 9999; */
   cursor: pointer;
@@ -109,10 +109,105 @@ p {
   /* transform: scale(1); */
 }
 
-.Projects-heading{
+/* **************************************** PROJECTS SECTIONS ****************************** */
+.Projects-section {
   margin-top: 4rem;
   padding-top: 5rem;
   padding-bottom: 6.5rem;
-  /* border: 2px solid; */
+}
+
+.Projects-section > h3 {
   text-align: center;
+  font-size: 5rem;
+}
+
+hr {
+  width: 30rem;
+}
+
+/* TIMELINE */
+.timeline-section {
+  min-height: 100vh;
+  padding: 10rem 1.5rem;
+}
+
+.timeline-items {
+  /* border: 2px solid red; */
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* for vertical line */
+.timeline-items::before{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  left: calc(50% - 1px);
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+.timeline-item:last-child{
+  margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+.timeline-dot {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #2b7bbc;
+  position: absolute;
+  left: calc(50% - 8px);
+  border-radius: 50%;
+  top: 10px;
+}
+
+.timeline-date{
+  font-size: 1.8rem;
+  color: #2b7bbc;
+  margin: 6px 0 15px;
+}
+.timeline-content {
+  padding: 3rem;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+}
+
+.timeline-content h3 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  text-transform: capitalize;
+}
+.timeline-content p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.timeline-btn{
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #2b7bbc;
+  border: none;
+  border-radius: 1rem;
+}
+.timeline-btn a{
+  text-decoration: none;
+  color: white;
+
 }
