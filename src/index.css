@@ -27,7 +27,7 @@ body {
   margin-top: 4rem;
   padding-top: 5rem;
   padding-bottom: 6.5rem;
-  border: 2px solid;
+  /* border: 2px solid; */
   text-align: center;
 }
 
@@ -113,6 +113,6 @@ p {
   margin-top: 4rem;
   padding-top: 5rem;
   padding-bottom: 6.5rem;
-  border: 2px solid;
+  /* border: 2px solid; */
   text-align: center;
 }
