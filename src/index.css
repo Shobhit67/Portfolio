@@ -106,17 +106,19 @@ p {
 /* ***********************************Coffee Section*******************************8 */
 
 .meet {
-  display: flex;
+  display:inline-flex;
   width: 10.4rem;
   height: 10.4rem;
   position: fixed;
   right: 4rem;
   bottom: 4rem;
   cursor: pointer;
+  border: 2px solid;
 }
 
 @media (max-width: 1195px) {
   .meet {
+    display: flex;
     border: 2px solid;
     height: 2rem;
     width: 0rem;
@@ -127,6 +129,7 @@ p {
 
 @media (max-width: 768px) {
   .meet {
+    display: flex;
     border: 2px solid;
     height: 2rem;
     width: 0rem;
