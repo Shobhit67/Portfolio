@@ -26,7 +26,7 @@ const timelineElements = [
     skill3: "Mongodb",
     skill4: "API",
     date: "Oct 2023",
-    hrefLink: "https://shobhitgoyal.netlify.app/",
+    hrefLink: "https://shobhit67.github.io/Game-zone/",
   },
   {
     id: 4,
