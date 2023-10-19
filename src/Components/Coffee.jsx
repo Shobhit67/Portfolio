@@ -1,6 +1,5 @@
 import CoffeeCup from "../imagex/cup6.gif";
 
-
 function Coffee() {
   return (
     <div className="meet">

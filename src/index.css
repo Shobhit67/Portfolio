@@ -4,9 +4,22 @@ html {
 }
 
 body {
-  font-family: "Wotfard", sans-serif;
   /* color: white; */
+  font-family: "Wotfard", sans-serif;
   /* background-color: black; */
+}
+
+/* Making Responsive */
+@media (max-width: 1195px) {
+  html {
+    font-size: 130%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 120%;
+  }
 }
 
 /* **************************************** COMMON ***************************** */
@@ -80,7 +93,7 @@ h1 > span {
 .sub-intro {
   font-size: 2.4rem;
   line-height: 1.4;
-  margin: 0 3rem;
+  margin:0 3rem;
 }
 
 h1,
@@ -94,16 +107,12 @@ p {
 
 .meet {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   width: 10.4rem;
   height: 10.4rem;
   position: fixed;
   right: 4rem;
   bottom: 4rem;
-  /* border-radius: 50%; */
   cursor: pointer;
-  /* background: rgb(255, 221, 0); */
 }
 
 /* **************************************** PROJECTS SECTIONS ****************************** */
@@ -196,10 +205,6 @@ p {
 
 /* RESPONSIVE PROJECTS */
 @media (max-width: 1195px) {
-  html {
-    font-size: 130%;
-  }
-
   .timeline-items::before {
     left: 0.7rem;
   }
@@ -219,17 +224,5 @@ p {
   }
   .sub-intro {
     margin: 0 5rem;
-  }
-  .meet{
-    right: 6rem;
-  bottom: 6rem;
-  width: 11.4rem;
-  height: 11.4rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .sub-intro {
-    margin: 0 7rem;
   }
 }

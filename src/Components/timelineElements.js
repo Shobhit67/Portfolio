@@ -3,7 +3,7 @@ const timelineElements = [
     id: 1,
     projectName: "Portfolio",
     description:
-      "Node Js Express React Js Socket.io A Real Time Chat Application implemented using Socket.io",
+      "Application created using React js ",
     date: "Oct 2023",
     btnTxt: "Show Project 1",
     hrefLink: "https://shobhitgoyal.netlify.app/"
