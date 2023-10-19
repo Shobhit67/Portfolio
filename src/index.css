@@ -106,36 +106,17 @@ p {
 /* ***********************************Coffee Section*******************************8 */
 
 .meet {
-  display:inline-flex;
-  width: 10.4rem;
-  height: 10.4rem;
+  display: flex;
+  justify-content: center;
+  /* background: rgb(255, 221, 0); */
   position: fixed;
   right: 4rem;
   bottom: 4rem;
   cursor: pointer;
-  border: 2px solid;
 }
-
-@media (max-width: 1195px) {
-  .meet {
-    display: flex;
-    border: 2px solid;
-    height: 2rem;
-    width: 0rem;
-    right: 8rem;
-    bottom: 6rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .meet {
-    display: flex;
-    border: 2px solid;
-    height: 2rem;
-    width: 0rem;
-    right: 8rem;
-    bottom: 6rem;
-  }
+.meet img {
+  width: 9.4rem;
+  height: 9.4rem;
 }
 
 /* **************************************** PROJECTS SECTIONS ****************************** */
