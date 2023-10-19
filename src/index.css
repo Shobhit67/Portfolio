@@ -115,6 +115,22 @@ p {
   cursor: pointer;
 }
 
+@media (max-width: 1195px) {
+  .meet {
+    border: 2px solid;
+    right: 8rem;
+    bottom: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .meet {
+    border: 2px solid;
+    right: 8rem;
+    bottom: 6rem;
+  }
+}
+
 /* **************************************** PROJECTS SECTIONS ****************************** */
 
 /* TIMELINE */
