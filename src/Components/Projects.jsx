@@ -17,7 +17,13 @@ function Projects() {
               <div className="timeline-date">{elements.date}</div>
               <div className="timeline-content">
                 <h3>{elements.projectName}</h3>
-                <p className="description">{elements.description}</p>
+                <p className="description">{elements.description}
+                  <br />
+                  <span className="skills">{elements.skill1}</span> 
+                  <span className="skills">{elements.skill2}</span> 
+                  <span className="skills">{elements.skill3}</span> 
+                  <span className="skills">{elements.skill4}</span> 
+                </p>
                 <button className="timeline-btn" typeof="submit">
                   <a href={elements.hrefLink}>View live <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" /></a>
                 </button>
