@@ -1,4 +1,7 @@
 import timelineElements from "./timelineElements";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 function Projects() {
   return (
@@ -16,7 +19,7 @@ function Projects() {
                 <h3>{elements.projectName}</h3>
                 <p className="description">{elements.description}</p>
                 <button className="timeline-btn" typeof="submit">
-                  <a href={elements.hrefLink}>View live</a>
+                  <a href={elements.hrefLink}>View live <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" /></a>
                 </button>
               </div>
             </div>

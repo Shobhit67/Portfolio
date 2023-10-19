@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  /* color: white; */
   font-family: "Wotfard", sans-serif;
+  /* color: white; */
   /* background-color: black; */
 }
 
@@ -107,24 +107,19 @@ p {
 
 .meet {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 6.4rem;
-  height: 6.4rem;
-  background: rgb(255, 221, 0);
-  /* background: #2b7bbc; */
-  color: white;
-  border-radius: 3.2rem;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 10.4rem;
+  height: 10.4rem;
   position: fixed;
-  right: 2rem;
-  bottom: 2rem;
-  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px; */
-  /* z-index: 9999; */
+  right: 4rem;
+  bottom: 4rem;
+  border-radius: 50%;
   cursor: pointer;
-  /* font-weight: 600; */
-  /* transition: all 0.25s ease 0s; */
-  /* transform: scale(1); */
+  /* background: rgb(255, 221, 0); */
 }
+
+
 
 /* **************************************** PROJECTS SECTIONS ****************************** */
 
