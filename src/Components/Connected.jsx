@@ -13,20 +13,34 @@ function Projects() {
         <div className="contacts">
           <p>Haryana, India</p>
           <h4>
-            <a href="mailto:shobhitgoyal1020@gmail.com"><strong>shobhitgoyal1020@gmail.com</strong></a>
+            <a href="mailto:shobhitgoyal1020@gmail.com">
+              <strong>shobhitgoyal1020@gmail.com</strong>
+            </a>
           </h4>
           <p>(+91) 9729062259</p>
           <br />
 
           <div className="social-icons">
-            <NavLink to="https://www.linkedin.com/in/shobhit-goyal-84a5501b9/" className="icons">
+            <NavLink
+              to="https://www.linkedin.com/in/shobhit-goyal-84a5501b9/"
+              target="_blank"
+              className="icons"
+            >
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </NavLink>
-            <NavLink to="https://github.com/Shobhit67/" className="icons">
+            <NavLink
+              to="https://github.com/Shobhit67/"
+              target="_blank"
+              className="icons"
+            >
               <FontAwesomeIcon icon={faGithub} size="xl" />
             </NavLink>
-            <NavLink to="#" className="icons">
-            <FontAwesomeIcon icon={faFile} size="xl" />
+            <NavLink
+              to="https://drive.google.com/file/d/1MDFl90fzm0suWtG8wB9w2nNVNKz34CNB/view"
+              target="_blank"
+              className="icons"
+            >
+              <FontAwesomeIcon icon={faFile} size="xl" />
             </NavLink>
           </div>
         </div>
